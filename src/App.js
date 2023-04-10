@@ -1,8 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { Features, Footer, Possibility,Blog,Contenido,Header} from './containers';
+import{CTA, Brand,NavBar} from './components';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='App'>
+      <div className='gradient__bg'>
+        <NavBar />
+        <Header />
+      </div>
+      <div>
+        <Brand />
+        <Contenido />
+        <Features />
+        <Possibility />
+        <CTA />
+        <Blog />
+        <Footer />
+      </div>
+    </div>
   )
 }
 
