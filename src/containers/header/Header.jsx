@@ -1,5 +1,6 @@
 import React from "react";
-import people from "../../assets/people.png"
+import people from "../../assets/people.png";
+import academit from "../../assets/academit.jpg";
 import "./header.css";
 
 
@@ -17,7 +18,11 @@ const Header = () => {
         </div>
         <div className="acad__header-content__people">
             <img src={people} alt="people" />
+            <p>1.600 personas nos visitaron en las últimas 24 horas</p>
         </div>
+        {/*<div className="acad__header-image">
+            <img src={academit} alt="academit" />
+  </div>*/}
       </div>
     </div>
   );
