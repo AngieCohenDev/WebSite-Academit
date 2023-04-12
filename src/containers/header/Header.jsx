@@ -1,8 +1,7 @@
 import React from "react";
 import people from "../../assets/people.png";
-import academit from "../../assets/academit.jpg";
+import academit from "../../assets/academit.png";
 import "./header.css";
-
 
 const Header = () => {
   return (
@@ -11,19 +10,26 @@ const Header = () => {
         <h1 className="gradient__text">
           Somos Academit, Programando la élite del mañana, hoy
         </h1>
-        <p>Tenemos el objetivo de preparar, actualizar, potencializar y desarrollar las capacidades de las personas para el mundo laboral a través de nuestros cursos, capacitaciones, asesorías y carreras. Otorgando acceso educativo de calidad para crear profesionales que satisfactoriamente cumplirán a cabalidad con los más altos estándares o requerimientos que existan en el mercado.</p>
+        <p>
+          Tenemos el objetivo de preparar, actualizar, potencializar y
+          desarrollar las capacidades de las personas para el mundo laboral a
+          través de nuestros cursos, capacitaciones, asesorías y carreras.
+          Otorgando acceso educativo de calidad para crear profesionales que
+          satisfactoriamente cumplirán a cabalidad con los más altos estándares
+          o requerimientos que existan en el mercado.
+        </p>
         <div className="acad__header-content_input">
           <input type="email" placeholder="Ingrese su Email, por favor…" />
           <button type="button">Empecemos</button>
         </div>
         <div className="acad__header-content__people">
-            <img src={people} alt="people" />
-            <p>1.600 personas nos visitaron en las últimas 24 horas</p>
+          <img src={people} alt="people" />
+          <p>1.600 personas nos visitaron en las últimas 24 horas</p>
         </div>
-        {/*<div className="acad__header-image">
-            <img src={academit} alt="academit" />
-  </div>*/}
       </div>
+      <div className="acad__header-image">
+          <img src={academit} alt="academit" />
+        </div>
     </div>
   );
 };
