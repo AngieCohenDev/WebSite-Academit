@@ -26,7 +26,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 27px;
-  color: var(--color-text);
+  color: #fff;
 
   margin-top: 1.5rem;
 }
@@ -63,7 +63,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
-    background: cyan;
+    background: #A429E5;
     color: #fff;
     cursor: pointer;
     outline: none;
