@@ -1,0 +1,22 @@
+.acad__brand{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.acad__brand div{
+    flex: 1;
+    max-width: 150px;
+    min-width: 150;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acad__brand img{
+    width: 80%;
+    height: 30%;
+}
