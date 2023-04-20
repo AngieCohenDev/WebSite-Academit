@@ -1,4 +1,6 @@
 import React from "react";
+import Article from "../../components/article/Article";
+import { blog01, blog02, blog03, blog04, blog05, blog06 } from "./imports";
 import "./blog.css";
 
 const Blog = () => {
@@ -10,16 +12,16 @@ const Blog = () => {
         </h1>
       </div>
       <div className="acad__blog-container">
-          <div className="acad__blog-container_groupA">
-                Article
-          </div>
-          <div className="acad__blog-container_groupB">
-                Article
-                Article
-                Article
-                Article
-                Article
-          </div>
+        <div className="acad__blog-container_groupA">
+          <Article imgUrl={blog01} title="Curso Fontend" />
+        </div>
+        <div className="acad__blog-container_groupB">
+        <Article imgUrl={blog02} title="Curso Backend"/>
+        <Article imgUrl={blog03} title="Curso Base de datos"/>
+        <Article imgUrl={blog04} title="Curso Trabajo Colaborativo"/>
+        <Article imgUrl={blog05} title="Curso Frontend Avanzado React Js + Js Expert"/>
+        <Article imgUrl={blog06} title="Curso Js Expert"/>
+        </div>
       </div>
     </div>
   );
