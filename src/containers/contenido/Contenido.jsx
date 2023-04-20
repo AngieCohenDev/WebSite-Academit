@@ -4,7 +4,7 @@ import "./contenido.css";
 
 const Contenido = () => {
   return(
-    <div className="acad__contenido section__margin" id="contenido">
+    <div className="acad__contenido section__margin" id="aboutUs">
       <div className="acad__contenido-feature">
         <Feature title="¿Quiénes Somos?" text="Somos expertos magnánimos, comprometidos con la evolución estructural de una sociedad más equitativa a través del rol fundamental que tiene la educación, brindando recursos de excelencia en tecnologías de la información y la comunicación fomentando mancomunadamente el desarrollo de habilidades y capacidades logrando una formación profesional de nuestros estudiantes."/>
       </div>

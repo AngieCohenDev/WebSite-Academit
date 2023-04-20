@@ -9,16 +9,16 @@ const Menu = () => (
       <a href="#aboutUs">Sobre Nosotros</a>
     </p>
     <p>
-      <a href="#contenido">Servicios</a>
+      <a href="#servicios">Servicios</a>
     </p>
     <p>
-      <a href="#possibility">Cursos</a>
+      <a href="#Cursos">Cursos</a>
     </p>
     <p>
-      <a href="#feature">¿Por qué elegirnos?</a>
+      <a href="#Experiencia">Experiencia</a>
     </p>
     <p>
-      <a href="#blog">Contacto</a>
+      <a href="#contacto">Contacto</a>
     </p>
   </>
 );
