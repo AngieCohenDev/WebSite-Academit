@@ -9,7 +9,6 @@ const App = () => {
         <NavBar />
         <Header />
       </div>
-      <div>
         <Brand />
         <Contenido />
         <Features />
@@ -17,7 +16,6 @@ const App = () => {
         <CTA />
         <Blog />
         <Footer />
-      </div>
     </div>
   )
 }
