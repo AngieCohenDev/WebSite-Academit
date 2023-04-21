@@ -16,7 +16,7 @@ const Header = () => {
           través de nuestros cursos, capacitaciones, asesorías y carreras.
           Otorgando acceso educativo de calidad para crear profesionales que
           satisfactoriamente cumplirán a cabalidad con los más altos estándares
-          o requerimientos que existan en el mercado.
+          y requerimientos que existan en el mercado. Ingresa tu email para ponerte en contacto con nosotros
         </p>
         <div className="acad__header-content_input">
           <input type="email" placeholder="Ingrese su Email, por favor…" />

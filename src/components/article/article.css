@@ -30,7 +30,7 @@
 .acad__blog-container_article-content p{
     font-family: var(--font-family);
     font-weight: bold;
-    font-size: 14px;
+    font-size: 14px;     
     line-height: 35px;
     color: #fff;
 
@@ -46,5 +46,12 @@
 
     margin-bottom: 5rem;
     cursor: pointer;
+}
+
+@media screen and (max-width:550px) {
+    .acad__blog-container_article-content h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
 }
 

@@ -14,9 +14,9 @@ const Blog = () => {
       <div className="acad__blog-container">
         <div className="acad__blog-container_groupA">
           <Article imgUrl={blog01} title="Curso Fontend" />
+          <Article imgUrl={blog02} title="Curso Backend"/>
         </div>
         <div className="acad__blog-container_groupB">
-        <Article imgUrl={blog02} title="Curso Backend"/>
         <Article imgUrl={blog03} title="Curso Base de datos"/>
         <Article imgUrl={blog04} title="Curso Trabajo Colaborativo"/>
         <Article imgUrl={blog05} title="Curso Frontend Avanzado React Js + Js Expert"/>
