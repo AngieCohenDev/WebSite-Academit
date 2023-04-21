@@ -1,0 +1,88 @@
+.acad__cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(49, 43, 70, 1) 0%, rgba(29, 205, 236, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(49, 43, 70, 1) 0%, rgba(29, 205, 236, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(49, 43, 70, 1) 0%, rgba(29, 205, 236, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(49, 43, 70, 1) 0%, rgba(29, 205, 236, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(49, 43, 70, 1) 0%, rgba(29, 205, 236, 1) 100%);
+}
+
+.acad__cta-content p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+
+.acad__cta-content h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: white;
+}
+
+.acad__cta-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.acad__cta-btn button{
+    background: black;
+    color: white;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1.5rem;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    max-width: 150px;
+}
+
+@media  screen and (max-width:650px){
+    .acad__cta{
+        flex-direction: column;
+    }
+
+    .acad__cta-btn{
+        margin: 2rem 0 0;
+    }
+}
+
+@media  screen and (max-width:550px){
+    .acad__cta{
+        margin: 4rem 2rem;
+    }
+
+    .acad__cta-content h3{
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .acad__cta-btn button{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

@@ -13,7 +13,6 @@ const App = () => {
         <Contenido />
         <Features />
         <Blog />
-        <Possibility />
         <CTA />
         <Footer />
     </div>
