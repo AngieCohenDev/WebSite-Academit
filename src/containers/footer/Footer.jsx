@@ -4,7 +4,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div className='acad__footer section__padding'>
+    <div className='acad__footer section__padding' id='contacto'>
       <div className='acad__footer-heading'>
         <h1 className='gradient__text'>
           ¿Quieres pertenecer a la  élite?

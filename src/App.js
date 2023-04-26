@@ -11,9 +11,9 @@ const App = () => {
       </div>
         <Brand />
         <Contenido />
-        <Features />
         <Blog />
         <CTA />
+        <Features />
         <Footer />
     </div>
   )

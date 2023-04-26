@@ -1,4 +1,4 @@
-import javascript from '../../assets/javascript.png';
+import javascript from '../../assets/javascript.webp';
 import mysql from '../../assets/mysql.png';
 import github from '../../assets/github.png';
 import node from '../../assets/node.png';
